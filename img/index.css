@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.web-nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.nav-search {
+  display: flex;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.search-icon {
+  background-color: #ffffffe5;
+  width: 40px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgb(232, 247, 249);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-input{
+   width: 800px;
+    height: 35px;
+    font-size: 1rem;
+    border: none;
+    outline:none;
+    background-color: rgb(232, 247, 249);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.seller{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.seller-icon{
+    margin-top: 4px;
+    margin-left: 10px;
+    background-color: #ffffffe5;
+    width: 28px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;  
+}
+
+.become-seller{
+    font-size:large ;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.profile{
+    margin-top: 4px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    background-color: #ffffffe5;
+    width: 10px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;  
+}
+
+.my-profile{
+    font-size: larger;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.dropdown{
+    border: none;
+}
+
+.shoping{
+  margin-left: 40px;
+  display: flex;
+  font-size: larger;
+}
+
+.cart{
+  margin-left: 5px;
+}
+
+.dots{
+  margin-left: 50px;
+}
+
+.dots a{
+  color: black;
+}
+
+.header{
+  width:100%;
+  height: 90px;
+}
+
+.shoping-img {
+  display: flex;
+  width: 100%;
+  height:80px ;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.header img{
+  height: 80px;
+  width: 80px;
+  margin-left: 60px;
+  border-radius: 4px;
+  
+}
+
+.items{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-self: left;
+  float: left;
+  margin-left: 20px;
+
+}
+
+.dress{
+  margin-left: 50px;
+}
+
+.laptop{
+  margin-left: 90px;
+}
+  
+.Furniture{
+  margin-left: 55px;
+}
+
+.laptop{
+  margin-left: 25px;
+}
+
+.Appliances{
+  margin-left: 35px;
+}
+
+.Travel{
+  margin-left: 40px;
+}
+
+/* .offers{
+ margin-left: 40px;
+} */
+
+
+#carouselExample{
+  margin-top: 40px;
+}
+
+/* xxxxxx */
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+/* xxxxxx */
+
+
+
+
+
+
+
+
